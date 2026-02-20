@@ -1,0 +1,44 @@
+/* Hintergrundbild */
+body {
+    margin: 0;
+    height: 100vh;
+    background: url("contentbg 1.jpg") center 70%/cover no-repeat fixed;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: "Georgia", serif;
+}
+
+/* Titel */
+h1 {
+    margin-right: -24%;
+    margin-top: -27%;
+    color: #5a3b1e;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+/* Liste */
+ol {
+   
+    margin-right: -8%;
+    margin-top: 5%;
+}
+
+li {
+    margin: 15px ;
+    font-size: 23px;
+    color: #3e2a18;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #4a2c14;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #8b5e34;
+    padding-left: 10px;
+}

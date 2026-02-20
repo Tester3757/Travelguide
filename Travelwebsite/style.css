@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("diarybg.jpg") center/cover no-repeat;
+    font-family: "Georgia", serif;
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+h1, p {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    animation: fadeIn 2s ease forwards;
+}
+
+h1:after {
+    content: "Top 10 Reiseziele weltweit";
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #f5e6c8;
+}
+
+/* Button */
+a {
+    display: inline-block;
+    padding: 12px 35px;
+    background: #c19a6b;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+     transition: all 0.2s ;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+a:hover {
+    background: #a67c52;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
