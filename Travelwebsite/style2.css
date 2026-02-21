@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    margin:0;
+    margin:0 0 0 150px;
     color: #5a3b1e;
     letter-spacing: 2px;
     font-size: 35px;
@@ -18,7 +18,9 @@ h1 {
 }
 
 ol {
-    margin-top: 20px;
+    margin: 15px;
+    padding-left: 200px;
+    padding-top: 20px;
 }
 
 li {
